@@ -64,7 +64,7 @@ if (!defined('ABSPATH')) {
             $total_post = $count_post->publish;
             echo $total_post;
             ?>
-            <span class="stwp-card-title">Post publicadas</span>
+            <span class="stwp-card-title">Entradas publicadas</span>
           </h3>
         </div>
       </div>
