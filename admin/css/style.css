@@ -1,0 +1,197 @@
+/* Colores */
+:root {
+  --principal: #2e3555;
+  --body: #a8a8a8;
+  --blue: #0f73ee;
+}
+
+a:focus {
+  box-shadow: none;
+}
+
+.logo {
+  max-width: 1300px;
+  margin: 35px auto;
+  text-align: center;
+}
+
+/* Card style */
+.stwp-card {
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.stwp-card-head {
+  padding: 12px 20px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.stwp-card-title {
+  color: var(--body);
+  font-weight: normal;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.stwp-card-body {
+  padding: 12px 20px;
+  color: var(--body);
+}
+
+.stwp-card-body h3 {
+  margin: 0;
+}
+
+/* General */
+.stwp-name-site {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: var(--principal);
+  line-height: 1;
+}
+
+.stwp-card-detail {
+  font-size: .8rem;
+}
+
+.stwp-card-detail li strong {
+  display: block;
+  text-align: right;
+  float: right;
+  color: var(--principal);
+}
+
+/* contadores */
+.stwp-card-icon {
+  width: 85px;
+  display: block;
+  margin: auto;
+}
+
+.stwp-card-count span {
+  display: block;
+  font-size: .8rem;
+
+}
+
+.stwp-card-count {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+/* Listado plugin */
+.stwp-list-plugin {
+  margin: 0;
+  max-height: 500px;
+  overflow-y: scroll;
+  padding-right: 12px;
+}
+
+.stwp-list-plugin-item,
+.stwp-list-theme-item {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.stwp-list-plugin-item h2,
+.stwp-list-theme-item h2 {
+  margin: 0;
+  font-size: 1.2em;
+  color: var(--principal);
+}
+
+.stwp-list-plugin-item p,
+.stwp-list-theme-item p {
+  margin: 0;
+}
+
+.stwp-list-plugin-status {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 10px;
+  padding: 2px 10px;
+  font-size: .7rem;
+  color: white;
+}
+
+.stwp-list-plugin-item.status-active,
+.stwp-list-theme-item.status-active {
+  background: #0fb74726;
+  border: 1px solid #60e78d;
+}
+
+.status-active span.stwp-list-plugin-status {
+  background: #0fb747;
+}
+
+.stwp-list-plugin-item.status-inactive {
+  background: #b70f0f26;
+  border: 1px solid #e76060;
+}
+
+.status-inactive span.stwp-list-plugin-status {
+  background: #cc4437;
+}
+
+/* Listado temas */
+
+.stwp-list-theme {
+  margin: 0;
+}
+
+.stwp-list-theme-item {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.stwp-list-theme-item a {
+  color: var(--principal)
+}
+
+/* Redes */
+.stwp-card-follow {
+  margin: 0;
+  display: flex;
+  flex-flow: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.stwp-card-follow li {
+  width: 45px;
+}
+
+.stwp-card-follow a:hover {
+  opacity: .5;
+}
+
+/* información shortcode*/
+.stwp-card-shortcode {
+  margin-top: 4%;
+  padding-bottom: 15px;
+}
+
+.stwp-card-shortcode .intro {
+  font-size: .9rem;
+  line-height: normal;
+  margin-bottom: 18px;
+  color: var(--principal);
+}
+
+.stwp-card-shortcode p {
+  margin: 3px 0;
+}
+
+.stwp-card-shortcode h3 {
+  font-size: 1rem;
+  color: var(--principal);
+}
+.stwp-card-shortcode code{
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
